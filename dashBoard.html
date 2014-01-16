@@ -1,0 +1,94 @@
+<!--Culttu.me App-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Tu Perfil</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile-1.4.0.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.structure-1.4.0.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.theme-1.4.0.min.css"> 
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.external-png-1.4.0.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.icons-1.4.0.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.inline-png-1.4.0.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.inline-svg-1.4.0.min.css">  
+    </head>
+    <body>
+        <!-- Page 1 -->
+        <div data-role="page" id="dashBoard">
+            <div data-role="header" data-position="fixed">
+                <h1>Tu Perfil</h1>
+                <a href="#" data-icon="arrow-l">Back</a>
+                <a href="index.html/#home" data-icon="home">Home</a>
+            </div>
+            <div data-role="panel" id="myPanel" data-position="left" data-display="overlay">
+                <label>Nombre</label>
+                <input type="text" id="myName">
+
+                <label>Usuario (Email)</label>
+                <input type="text" id="myName">
+
+                <label>Contraseña</label>
+                <input type="text" id="myLastName">
+
+                <label>Confirma tu contraseña</label>
+                <input type="text" id="myLastName">
+
+                <a href="#" data-role="button">Guardar</a>
+                <a href="#board" data-role="button" data-rel="close">Regresar</a>
+            </div>
+            <div data-role="content" id="board">
+                    <ul data-role="listview" data-inset="true" data-filter="true">
+                        <div data-role="collapsible-set">
+                            <div data-role="collapsible">
+                                <h3>Descubre Artistas</h3>
+                                    <ul data-role="listview">
+                                        <li><a href="#">En este espacio ...</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+
+                        <div data-role="collapsible-set">
+                            <div data-role="collapsible">
+                                <h3>Apoya tu artista</h3>
+                                    <ul data-role="listview">
+                                        <li><a href="#">En este espacio...</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+
+                        <div data-role="collapsible-set">
+                            <div data-role="collapsible">
+                                <h3>Eventos</h3>
+                                    <ul data-role="listview">
+                                        <li><a href="#">En este espacio...</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+
+                        <div data-role="collapsible-set">
+                            <div data-role="collapsible">
+                                <h3>Tus Puntos</h3>
+                                    <ul data-role="listview">
+                                        <li><a href="#">En este espacio...</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </ul>
+                <a href="#myPanel" data-role="button">Config tu Perfil</a>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h3>Copyrigth</h3>
+            </div>
+        </div>
+        </div>
+
+        <!-- Scripts JS -->
+        <script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="assets/js/custom-jquerymobile.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.mobile-1.4.0.min.js"></script>
+        <script type="text/javascript" src="assets/js/lab9.js"></script>
+    </body>
+</html>

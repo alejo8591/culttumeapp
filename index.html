@@ -1,0 +1,105 @@
+<!--Culttu.me App-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Culttu.me</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile-1.4.0.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.structure-1.4.0.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.theme-1.4.0.min.css"> 
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.external-png-1.4.0.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.icons-1.4.0.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.inline-png-1.4.0.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile.inline-svg-1.4.0.min.css">  
+    </head>
+    <body>
+        <!-- Page 1 -->
+        <div data-role="page" id="home">
+            <div data-role="header" data-position="fixed">
+                <h1>Culttu.me</h1>
+            </div>
+            <div data-role="content">
+                <a href="#signIn" data-role="button">Ingresa</a>
+                <a href="#signUp" data-role="button">Regístrate</a>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#aboutUs" data-rel="dialog">Conócenos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- SingIn -->
+        <div data-role="page" id="signIn">
+            <div data-role="header">
+                <h3>Ingresa</h3>
+                <a href="#" data-icon="arrow-l">Back</a>
+                <a href="#home" data-icon="home">Home</a>
+            </div>
+            <div data-role="content">
+                <label>Usuario</label>
+                <input type="text" id="myName">
+
+                <label>Contraseña</label>
+                <input type="text" id="myLastName">
+
+                <a href="dashBoard.html" data-role="button">Logn In</a>
+                <a href="#signIn" data-role="button">Cambiar Contraseña</a>
+                <a href="#signUp" data-role="button">Regístrate</a>
+            </div>
+                <div data-role="footer" data-position="fixed">
+                <h3>Copyrigth</h3>
+            </div>
+        </div>
+        <!-- SingUp -->
+        <div data-role="page" id="signUp">
+            <div data-role="header">
+                <h3>Regístrate</h3>
+                <a href="#" data-icon="arrow-l">Back</a>
+                <a href="#home" data-icon="home">Home</a>
+            </div>
+            <div data-role="content" data-fullscreen="true">
+                <label>Nombre</label>
+                <input type="text" id="myName">
+
+                <label>Usuario (Email)</label>
+                <input type="text" id="myName">
+
+                <label>Contraseña</label>
+                <input type="text" id="myLastName">
+
+                <label>Confirma tu contraseña</label>
+                <input type="text" id="myLastName">
+
+                <a href="#" data-role="button">Logn Up</a>
+                <a href="#signIn" data-role="button">Estoy registrado</a>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h3>Copyrigth</h3>
+            </div>
+        </div>
+        <!-- aboutUs -->
+        <div data-role="page" id="aboutUs">
+            <div data-role="header">
+                <h1>AgilApp</h1>
+            </div>
+            <div data-role="content">
+                <p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
+                <a href="#page-one" data-role="button" data-inline="true" data-rel="back">Ok</a>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h3></h3>
+            </div>
+        </div>
+
+        <!-- Scripts JS -->
+        <script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="assets/js/custom-jquerymobile.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.mobile-1.4.0.min.js"></script>
+        <script type="text/javascript" src="assets/js/lab.js"></script>
+    </body>
+</html>
