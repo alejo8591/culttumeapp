@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Culttu.me</title>
+        <!--Css-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.0.min.css" /> 
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.external-png-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.icons-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.inline-png-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.inline-svg-1.4.0.min.css" />
+    </head>
+    <body>
+        <div data-role="page" id="login" data-dom-cache="true">
+            <div data-role="header" id="headerLogin">
+                <h1>Culttu.me</h1>
+            </div>
+            <div data-role="content" id="contentLogin">
+                <form id="form">
+                    <label>e-mail</label>
+                    <input type="email" id="email">
+                    <label>Contraseña</label>
+                    <input type="password" id="password">
+                    <input type="submit" value="Ingresar" id="submitLogin">
+                    <p> <a href="#recover">Recordar Contraseña</a></p>
+                </form>
+            </div>
+            <div data-role="footer" id="footerLogin" data-position="fixed">
+                <p align="center">AgilApps 2014</p>
+            </div>
+        </div>
+
+
+        <div data-role="page" id="recover">
+            
+            <div data-role="header" id="headerRecover">
+                <h1>Culttu.me</h1>
+            </div>
+
+            <div data-role="content" id="contentRecover">
+                <form>
+                <label>Email</label>
+                <input type="text" id="email">
+                <label>Nueva Contraseña: </label>
+                <input type="password" id="password">
+                <label>Confirme su contraseña: </label>
+                <input type="password" id="confirmPassword">  
+                <p><a href="dashboard.html" data-role="button" data-inline="true" id="submitRecover">Recuperar</a> </p>
+            </form>
+            </div>
+            <div data-role="footer" id="footerRecover" data-position="fixed">
+                <p>AgilApps 2014</p>
+            </div>
+        </div>
+
+        <!--Js-->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.0.min.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
