@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--Style CSS-->
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Culttu.me</title>
+        <link href='http://fonts.googleapis.com/css?family=Monda:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.0.min.css" /> 
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.external-png-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.icons-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.inline-png-1.4.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.inline-svg-1.4.0.min.css" />  
+    </head>
+    <body>
+
+        <div data-role="page" id="page-one" data-dom-cache="true">
+           
+            <div data-role="header" id="header">
+                <h1>Culttu.me</h1>
+                <a href="#" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+                <a href="myprofile.html" data-role="button" data-icon="info">Perfil</a>
+            </div>
+
+            <div data-role="content">
+                   <p><img src="css/images/logo.png"></p>
+                    <a href="#mypanel" data-role="button" data-icon="grid">Menú Principal</a>    
+            </div>
+
+             <div data-role="panel" id="mypanel" >
+
+             <ul data-role="listview">
+                 <div data-role="collapsible-set">
+                      <div data-role="collapsible">
+                      <h3>Listar Proyectos</h3>
+                        <ul data-role="listview">
+                            <li><a href="">ProjectAgilapps</a></li>
+                            <li><a href="">Culttumeapp</a></li>
+                            <li><a href="">Agilapps </a></li>
+                        </ul>
+                      </div>
+                      <div data-role="collapsible">
+                        <h3>crear Proyecto</h3>
+                        <ul data-role="listview">
+                            <li><a href="">Nombre del proyecto</a></li>
+                        </ul>
+                            
+                      </div>
+                </div>
+             </ul>
+                
+            </div>
+
+            <div data-role="footer" data-position="fixed" id="footer">
+                <p>Todos los derechos reservados</p>
+            </div>
+        </div><!--End div page-one-->
+        <!-- Scripts JS -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/custom-jquerymobile.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.0.min.js"></script>
+        <script type="text/javascript" src="js/lab1.js"></script>
+    </body>
+</html>
