@@ -4,7 +4,7 @@
         <!--Style CSS-->
         <meta charset="utf-8">
         <meta name ="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Registro de Usuario</title>
+        <title>Culltu.me</title>
         <link href='http://fonts.googleapis.com/css?family=Monda:700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.0.min.css" />
@@ -23,21 +23,21 @@
                 <h1>Culttu.me</h1>
                 <a href="#" data-role="button" data-icon="arrow-l" data-rel="back">Back</a> 
             </div>
-
             <div data-role="content">
-            <form  id="form">
-                <label>Nombre y Apellido: </label>
-                <input type="text" id="username">
-                <label>E-mail: </label>
-                <input type="email" id="email">
-                <label>Confirme su e-mail: </label>
-                <input type="email" id="confirmemail">
-                <label>Contraseña: </label>
-                <input type="password" id="password">
-                <label>Confirme su contraseña: </label>
-                <input type="password" id="confirmpassword">
-                <p><input type="submit" value="Enviar" data-inline="true" id="submit" onclick="showAlert(); return false;"></p>   
-            </form>   
+                <form  id="formRegister" method="post">
+
+                    <label for="lbUserRegister">Nombre y Apellido: </label>
+                    <input type="text" id="userRegister">
+                    <label for="lbemailRegister">E-mail: </label>
+                    <input type="email" id="emailRegister">
+                    <label for="lbConfirmEmail">Confirme su e-mail: </label>
+                    <input type="email" id="confirmEmailRegister">
+                    <label for="lbPaswordRegister"> Contraseña: </label>
+                    <input type="password" id="passwordRegister">
+                    <label for="lbConfirmPassword">Confirme su contraseña: </label>
+                    <input type="password" id="confirmPasswordRegister">
+                    <p><input type="submit" value="Enviar"  id="submitRegister" onclick=""></p>  
+                </form>   
             </div>
 
             <div data-role="footer" data-position="fixed" data-theme= "b" id="footer">
@@ -49,6 +49,6 @@
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/custom-jquerymobile.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.4.0.min.js"></script>
-        <script type="text/javascript" src="js/projectagilapps.js"></script>
+        <script type="text/javascript" src="js/culttume.js"></script>
     </body>
 </html>

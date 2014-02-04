@@ -1,2 +1,2 @@
-c:\wamp\www\culttumeapp\culttume\platforms\android\bin\AndroidManifest.xml : \
-c:\wamp\www\culttumeapp\culttume\platforms\android\AndroidManifest.xml \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/bin/AndroidManifest.xml : \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/AndroidManifest.xml \

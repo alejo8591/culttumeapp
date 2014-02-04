@@ -19,9 +19,26 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-
+ster
         console.log('Received Event: ' + id);
     }
 };
+
+/*function validate_data(){
+    if (document.formValidate.inputEmail.value.length == 0) {
+        alert("Ingrese su nombre")
+    }
+
+    if (document.formValidate.inputPassword.value.length == 0){
+        alert("Ingrese su contraseña")
+    }
+
+}
+
+function form_regiter*/
+
+
+
+
 
 

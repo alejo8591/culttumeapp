@@ -1,9 +1,9 @@
-c:\wamp\www\culttumeapp\culttume\platforms\android\bin\classes.dex : \
-c:\wamp\www\culttumeapp\culttume\platforms\android\bin\classes\io\cordova\hellocordova\BuildConfig.class \
-c:\wamp\www\culttumeapp\culttume\platforms\android\bin\classes\io\cordova\hellocordova\Culttume.class \
-c:\wamp\www\culttumeapp\culttume\platforms\android\bin\classes\io\cordova\hellocordova\R$attr.class \
-c:\wamp\www\culttumeapp\culttume\platforms\android\bin\classes\io\cordova\hellocordova\R$drawable.class \
-c:\wamp\www\culttumeapp\culttume\platforms\android\bin\classes\io\cordova\hellocordova\R$string.class \
-c:\wamp\www\culttumeapp\culttume\platforms\android\bin\classes\io\cordova\hellocordova\R$xml.class \
-c:\wamp\www\culttumeapp\culttume\platforms\android\bin\classes\io\cordova\hellocordova\R.class \
-c:\wamp\www\culttumeapp\culttume\platforms\android\bin\dexedLibs\classes-4f4c2e83a33fabb8d95ec3a93a78f5da.jar \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/bin/classes.dex : \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/bin/classes/io/cordova/hellocordova/BuildConfig.class \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/bin/classes/io/cordova/hellocordova/Culttume.class \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/bin/classes/io/cordova/hellocordova/R$attr.class \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/bin/classes/io/cordova/hellocordova/R$drawable.class \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/bin/classes/io/cordova/hellocordova/R$string.class \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/bin/classes/io/cordova/hellocordova/R$xml.class \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/bin/classes/io/cordova/hellocordova/R.class \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/bin/dexedLibs/classes-87114abd91df347893fd7dab532962a8.jar \
