@@ -21,7 +21,7 @@
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/index.html \
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/js \
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/login.html \
-/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/myprofile.html \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/profile.html \
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/recover.html \
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/register.html \
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/css/images \
@@ -40,7 +40,9 @@
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/css/jquery.mobile.structure-1.4.0.min.css \
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/css/jquery.mobile.theme-1.4.0.css \
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/css/jquery.mobile.theme-1.4.0.min.css \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/css/style.css \
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/css/images/ajax-loader.gif \
+/Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/css/images/culttume.png \
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/css/images/icons-png \
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/css/images/icons-svg \
 /Applications/MAMP/htdocs/culttumeapp/culttume/platforms/android/assets/www/css/images/logo.png \

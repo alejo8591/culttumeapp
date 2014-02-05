@@ -1,23 +1,37 @@
 $(document).ready(function(){
 	$(function(){
+
+		$('#submitRegister').bind('click', function(){
+			
+			var email = $('#emailRegister').val();
+			var password = $('#passwordRegister').val();
+			
+			window.localStorage.setItem("emailRegister", email);
+			window.localStorage.setItem("passwordRegister", password);	
+		});
+
        $('#formRegister').validate({
+       	   onclick: false,
            rules: {
-	           'userRegister': 'required',
+
 	           'emailRegister': {required: true , email: true},
-	           'confirmEmailRegister': {required: true , email: true},
-	           'passwordRegister': 'required',
-	           'confirmPasswordRegister': 'required'
-           },
+	           'passwordRegister': {required: true, minlength: 8}
+            },
        		messages: {
-	           'userRegister': 'Debe ingresar el nombre',
-	           'emailRegister': { required: 'Debe ingresar un correo electrónico', email: 'Debe ingresar el correo electrónico con el formato correcto. Por ejemplo: u@localhost.com' },
-	           'confirmEmailRegister':{ required: 'Debe ingresar un correo electrónico', email: 'Debe ingresar el correo electrónico con el formato correcto. Por ejemplo: u@localhost.com' },
-	           'passwordRegister': 'Debe ingresar una contraseña',
-	           'confirmPasswordRegister': 'Las contraseñas debe ser iguales'
+
+	           //'emailRegister': { required: 'Debe ingresar un correo electrónico', email: 'Debe ingresar el correo electrónico con el formato correcto' },
+	           'emailRegister': 'Debe Ingresar un correo electronico',
+	           'passwordRegister': 'Debe ingresar una contraseña minimo de  8 caracteres'
        		},
-       		debug: true,
+
+       		errorPlacement: function (error, element) {
+            	alert(error.text());
+        	},
+
+       		//debug: true,
        		submitHandler: function(form){
-           		alert('El formulario ha sido validado correctamente!');
+           		alert('Los datos se han guardado correctamente');
+           		return false;
        		}
     	});
 	});

@@ -5,7 +5,6 @@
         <meta charset="utf-8">
         <meta name ="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>Culltu.me</title>
-        <link href='http://fonts.googleapis.com/css?family=Monda:700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.0.min.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.0.min.css" />
@@ -19,28 +18,24 @@
 
         <div data-role="page" id="page-one" data-dom-cache="true">
            
-            <div data-role="header"  id="header">
+            <div data-role="header">
                 <h1>Culttu.me</h1>
-                <a href="#" data-role="button" data-icon="arrow-l" data-rel="back">Back</a> 
+                <a href="#" data-role="button" data-icon="arrow-l" data-rel="back">Atras</a> 
             </div>
             <div data-role="content">
                 <form  id="formRegister" method="post">
 
-                    <label for="lbUserRegister">Nombre y Apellido: </label>
-                    <input type="text" id="userRegister" name="userRegister">
-                    <label for="lbemailRegister">E-mail: </label>
+                    <label for="emailRegister">E-mail: </label>
                     <input type="email" id="emailRegister" name="emailRegister">
-                    <label for="lbConfirmEmail">Confirme su e-mail: </label>
-                    <input type="email" id="confirmEmailRegister" name="confirmEmailRegister">
-                    <label for="lbPaswordRegister"> Contraseña: </label>
+
+                    <label for="passwordRegister"> Contraseña: </label>
                     <input type="password" id="passwordRegister" name="passwordRegister">
-                    <label for="lbConfirmPassword">Confirme su contraseña: </label>
-                    <input type="password" id="confirmPasswordRegister" name="confirmPasswordRegister">
-                    <p><input type="submit" value="Enviar"></p>  
+
+                    <p><input type="submit" value="Registrarme" id="submitRegister" name="submitRegister"></p>  
                 </form>   
             </div>
 
-            <div data-role="footer" data-position="fixed" id="footer">
+            <div data-role="footer" data-position="fixed" >
                 <p>Agilapps</p>
             </div>
         </div><!--End div page-one-->

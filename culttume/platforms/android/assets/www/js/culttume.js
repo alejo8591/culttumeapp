@@ -1,20 +1,38 @@
 $(document).ready(function(){
-	 $('#formRegister').validate({
-        onclick: false,
-        rules: {
-            state: "required"
-        },
-        messages: {
-            state: {
-                required: "The State is required!"
-            }
-        },
-        errorPlacement: function (error, element) {
-            alert(error.text());
-        },
-        submitHandler: function (form) { // for demo
-            alert('Los datos son invalidos'); // for demo
-            return false; // for demo
-        }
+	$(function(){
+
+		$('#submitRegister').bind('click', function(){
+			
+			var email = $('#emailRegister').val();
+			var password = $('#passwordRegister').val();
+			
+			window.localStorage.setItem("emailRegister", email);
+			window.localStorage.setItem("passwordRegister", password);	
+		});
+
+       $('#formRegister').validate({
+       	   onclick: false,
+           rules: {
+
+	           'emailRegister': {required: true , email: true},
+	           'passwordRegister': {required: true, minlength: 8}
+            },
+       		messages: {
+
+	           //'emailRegister': { required: 'Debe ingresar un correo electrónico', email: 'Debe ingresar el correo electrónico con el formato correcto' },
+	           'emailRegister': 'Debe Ingresar un correo electronico',
+	           'passwordRegister': 'Debe ingresar una contraseña minimo de  8 caracteres'
+       		},
+
+       		errorPlacement: function (error, element) {
+            	alert(error.text());
+        	},
+
+       		//debug: true,
+       		submitHandler: function(form){
+           		alert('Los datos se han guardado correctamente');
+           		return false;
+       		}
+    	});
 	});
 });
